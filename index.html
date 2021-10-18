@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Blackjack</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Blackjack content displayed below -->
+        <section class="titleText">
+            Blackjack
+        </section>
+        <main id="gameContentBox">
+            <!-- Contains game cards, labels and interactive buttons -->
+<!--            <section id="gamePlayArea"> -->
+                <div><h2 id="topMessageArea">Press deal to begin to play.</h2></div>
+                <div class="dealerInfo">Dealer's hand:</div>
+                <section id="dealerHand">
+                    <div class="placeholderCard"></div>
+                    <div class="dealerCard"></div>
+                    <div class="dealerCard"></div>
+                    <div class="dealerCard"></div>
+                    <div class="dealerCard"></div>
+                    <div class="dealerCard"></div>
+                    <div class="dealerCard"></div>
+                    <div class="dealerCard"></div>
+                    <div class="dealerCard"></div>
+                    <div class="dealerCard"></div>
+                    <div class="dealerCard"></div>
+                </section>
+                <div class="playerInfo">Player's hand:</div>
+                <section id="playerHand">
+                    <div class=placeholderCard></div>
+                </section>
+                <section class="btnArea">
+                    <button id="btn-deal">Deal</button>
+                    <button id="btn-hit" disabled>Hit</button>
+                    <button id="btn-stand" disabled>Stand</button>
+                    <button id="btn-resign" disabled>Resign</button>
+                </section>
+
+<!--            </section> -->
+            <!-- Contains status text about the game state -->
+        </main>
+        
+        <script type="module" src="js/main.js" async defer></script>
+    </body>
+</html>
